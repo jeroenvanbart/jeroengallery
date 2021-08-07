@@ -12,7 +12,7 @@ nav {
   justify-content: space-around;
   padding: 0 50px;
   align-items: center;
-  min-height: 10vh;
+  height: 10vh;
   background-color: rgba(56, 94, 138,0.3);
   font-family: "Poppins", sans-serif;
 }
@@ -50,10 +50,17 @@ nav {
 }
 
 .headers{
+  margin: auto;
   text-align:center;
+  align-self: center;
   background-color: rgb(116, 15, 0);
   color: rgba(231, 235, 240, 0.836);
-  height: 4.5vh;
+  height: 2.5em;
+  
+}
+.headers h2 {
+  font-size: 1.5rem;
+  margin: auto;
 }
 
 .description {
@@ -161,7 +168,7 @@ nav {
 
 #footer {
   text-align: center;
-  color:rgba(231, 235, 240, 0.836) ;
+  color:rgba(231, 235, 240, 0.4) ;
   height: 100px;
   background-color: rgba(24, 23, 41, 0.89);
   display: flex;
@@ -170,7 +177,7 @@ nav {
 }
 #footer a {
   text-decoration: none;
-  color:rgba(231, 235, 240, 0.836) ;
+  color:rgba(231, 235, 240, 0.4) ;
   font-size: 0.8em;
   display: flex;
   justify-content: center;
@@ -215,7 +222,15 @@ nav {
   padding: 5px;
   background-color: rgba(116, 15, 0, 0.9);
   border-radius: 8px;
-  border:rgba(231, 235, 240, 0.836) 3px solid;
+  border: none;
+}
+
+.button:hover{
+  cursor: pointer;
+  color: rgba(116, 15, 0, 0.9);
+  background-color: rgba(231, 235, 240, 0.836);
+  border: 1px solid black;
+
 }
 
 .paintingpage {
@@ -245,19 +260,21 @@ nav {
   }
   .cardcontainer{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    background-color: rgba(8, 41, 49, 0.7);
+    background-color: rgba(8, 41, 49, 0.6);
     min-height: 80vh;
   }
 
   .paintingcard{
-    max-width: 40vw;
-    max-height: 50vh;
+    min-width: 30vw;
+    min-height: 50vh;
+    max-width: 45vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(56, 94, 138,0.25);
+    background-color: rgba(41, 49, 45, 0.8);
     margin: 30px 25%;
     border-radius: 25px;
     text-align: center;
@@ -265,7 +282,7 @@ nav {
   }
 
   .imagecard{
-    margin-top: 15%;
+    margin-top: 25%;
     
     max-height: 70%;
     max-width: 70%;
@@ -290,6 +307,7 @@ nav {
 .imgslideshow{
   max-width: 60%;
   margin: 10% 20%;
+  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
   
 }
 
@@ -392,14 +410,14 @@ nav {
   position: absolute;
   right: 0px;
   height: 90vh;
-  top: 11.2vh;
+  top: 10vh;
   background-color:rgba(8, 41, 49, 0.9);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   padding-top: 100px;
-  gap: 100px;
+  gap: 60px;
   width: 20rem;
   transform: translateX(100%);
   transition: transform 0.5s ease-in;
@@ -409,6 +427,7 @@ nav {
   }
   .nav-links a{
     color:rgba(231, 235, 240, 1) ;
+    margin-left: 50px;
   }
   .burger {
     display: block;
@@ -447,6 +466,7 @@ nav {
     align-items: center;
     padding: 10%;
     
+    
   }
   .section-2 img {
     max-height: 70%;
@@ -475,5 +495,28 @@ nav {
     margin: 0px 20%;
   }
 
-}
 
+
+  .cardcontainer{
+    flex-direction: row;
+  }
+
+  .paintingcard{
+    min-width: 20vw;
+    min-height: 30vh;
+    max-height: 50vh;
+    max-width: 30vw;
+    margin: 30px auto;
+  }
+
+
+}
+@media screen and (min-width:1300px){
+  .paintingcard{
+    min-width: 20vw;
+    min-height: 30vh;
+    max-height: 80vh;
+    max-width: 20vw;
+    margin: 30px auto;
+  }
+}
