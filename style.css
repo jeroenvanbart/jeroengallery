@@ -8,6 +8,7 @@
 }
 
 nav {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   padding: 0 50px;
@@ -24,6 +25,7 @@ nav {
   justify-content: space-around;
   width: 50px;
   gap: 20px;
+  
   
 }
 .nav-links li {
@@ -71,8 +73,11 @@ nav {
 }
 .title {
   font-size: 2em;
-  padding: 0 5%;
-  
+}
+
+.title-2{
+  font-size: 2em;
+  text-align: left;
 }
 .text-block {
   padding-bottom: 10px;
