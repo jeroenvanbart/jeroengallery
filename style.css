@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
@@ -14,7 +14,7 @@ nav {
   padding: 0 50px;
   align-items: center;
   height: 10vh;
-  background-color: rgba(56, 94, 138,0.3);
+  background-color: rgba(8, 41, 49, 0.5);
   font-family: "Poppins", sans-serif;
 }
 .logo {
@@ -25,8 +25,6 @@ nav {
   justify-content: space-around;
   width: 50px;
   gap: 20px;
-  
-  
 }
 .nav-links li {
   list-style: none;
@@ -35,15 +33,14 @@ nav {
   color: rgba(116, 15, 0, 0.9);
   text-decoration: none;
   letter-spacing: 3px;
-  font-size: 14px;
+  font-size: 16px;
 }
-
 
 .burger {
   display: none;
   cursor: pointer;
 }
-.burger div{
+.burger div {
   width: 25px;
   height: 3px;
   background-color: rgba(116, 15, 0, 0.9);
@@ -51,14 +48,13 @@ nav {
   transition: all 0.3s ease;
 }
 
-.headers{
+.headers {
   margin: auto;
-  text-align:center;
+  text-align: center;
   align-self: center;
   background-color: rgb(116, 15, 0);
   color: rgba(231, 235, 240, 0.836);
   height: 2.5em;
-  
 }
 .headers h2 {
   font-size: 1.5rem;
@@ -71,18 +67,24 @@ nav {
   font-size: 0.8em;
   margin: 8px 0px 8px 0px;
 }
+.description-2 {
+  text-align: center;
+  font: italic;
+  font-size: 0.8em;
+  margin: 0px 0px 5% 0px;
+}
+
 .title {
   font-size: 2em;
 }
 
-.title-2{
+.title-2 {
   font-size: 2em;
   text-align: left;
 }
 .text-block {
   padding-bottom: 10px;
   font-size: 0.98em;
-  
 }
 .section-1 {
   height: 50vh;
@@ -90,14 +92,13 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 .section-1-text {
-  background-color:  rgba(8, 41, 49, 0.7);
+  background-color: rgba(8, 41, 49, 0.7);
   height: 50vh;
-  padding:20px;
+  padding: 20px;
 }
-.section-1-text h1{
+.section-1-text h1 {
   font-size: 2em;
   line-height: 1.25em;
 }
@@ -105,7 +106,6 @@ nav {
   text-align-last: center;
   padding-top: 120px;
   color: rgba(231, 235, 240, 0.836);
-  
 }
 .section-1 div p {
   margin-top: 40px;
@@ -115,11 +115,10 @@ nav {
 
 .section-2 {
   height: 100%;
-  background-color: rgba(56, 94, 138,0.25);
+  background-color: rgba(56, 94, 138, 0.25);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  
 }
 .section-2 img {
   max-height: 60%;
@@ -133,7 +132,7 @@ nav {
   margin: 30px 0;
 }
 
-.text-section-2 a{
+.text-section-2 a {
   text-align: center;
   text-decoration: none;
   color: rgb(116, 15, 0);
@@ -157,7 +156,7 @@ nav {
   text-align: justify;
   color: rgba(231, 235, 240, 0.836);
 }
-.text-section-3 a{
+.text-section-3 a {
   text-align: center;
   text-decoration: none;
   color: rgba(231, 235, 240, 0.836);
@@ -165,7 +164,7 @@ nav {
 
 .contact {
   height: 80vh;
-  background-color: rgba(56, 94, 138,0.25);
+  background-color: rgba(56, 94, 138, 0.25);
   text-align: center;
   padding: 10vh 10vw;
   color: rgb(116, 15, 0);
@@ -173,23 +172,23 @@ nav {
 
 #footer {
   text-align: center;
-  color:rgba(231, 235, 240, 0.4) ;
+  color: rgba(231, 235, 240, 0.6);
   height: 100px;
-  background-color: rgba(24, 23, 41, 0.89);
+  background-color: rgba(8, 41, 49, 0.7);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 #footer a {
   text-decoration: none;
-  color:rgba(231, 235, 240, 0.4) ;
+  color: rgba(231, 235, 240, 0.4);
   font-size: 0.8em;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.textarea{ 
+.textarea {
   align-self: center;
   margin-top: 10px;
   margin-bottom: 25px;
@@ -197,7 +196,7 @@ nav {
   padding-left: 50px;
 }
 
-.form{
+.form {
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -206,13 +205,13 @@ nav {
   gap: 20px;
 }
 
-.form input{
+.form input {
   height: 30px;
   margin: 0px 1vw;
   padding-left: 10px;
 }
 
-.form textarea{
+.form textarea {
   height: 100px;
   margin: 0px 1vw;
   padding: 10px;
@@ -221,7 +220,7 @@ nav {
 .button {
   text-decoration: none;
   color: rgba(231, 235, 240, 0.836);
-  margin: 0px 1vw ;
+  margin: 0px 1vw;
   font-size: 1em;
   font-weight: bolder;
   padding: 5px;
@@ -230,208 +229,240 @@ nav {
   border: none;
 }
 
-.button:hover{
+.button:hover {
   cursor: pointer;
   color: rgba(116, 15, 0, 0.9);
   background-color: rgba(231, 235, 240, 0.836);
   border: 1px solid black;
-
 }
 
 .paintingpage {
+  height: 100%;
+  background-color: rgba(56, 94, 138, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.paintingpage img {
+  max-height: 60%;
+  max-width: 60%;
+  margin: 50px 20%;
+  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+}
+.paintingpagetext {
+  margin: 10px 20% 50px;
+  text-align: justify;
+  color: rgb(116, 15, 0);
+  min-height: 75vh;
+}
+.details {
+  line-height: 2em;
+  margin: 10px 0;
+}
+.cardcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgba(8, 41, 49, 0.6);
+  min-height: 90vh;
+}
 
-    height: 100%;
-    background-color: rgba(56, 94, 138,0.25);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-  }
-  .paintingpage img {
-    max-height: 60%;
-    max-width: 60%;
-    margin: 50px 20% ;
-    box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
-  }
-  .paintingpagetext {
-    margin: 10px 20% 50px;
-    text-align: justify;
-    color: rgb(116, 15, 0);
-    min-height: 75vh;
-  }
-  .details{
-    line-height: 2em;
-    margin: 10px 0;
-  }
-  .cardcontainer{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    background-color: rgba(8, 41, 49, 0.6);
-    min-height: 80vh;
-  }
+.paintingcard {
+  min-width: 30vw;
+  min-height: 50vh;
+  max-height: 35vh;
+  max-width: 45vw;
+  display:flex-start;
+  
+  flex-direction: column;
+  background-color: rgba(41, 49, 45, 0.8);
+  margin: 30px 25%;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 10px 10px 10px rgba(22, 24, 26, 0.8);
+}
 
-  .paintingcard{
-    min-width: 30vw;
-    min-height: 50vh;
-    max-width: 45vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgba(41, 49, 45, 0.8);
-    margin: 30px 25%;
-    border-radius: 25px;
-    text-align: center;
-    box-shadow: 10px 10px 10px rgba(22, 24, 26, 0.8);
-  }
+.imagecard img {
+  align-self: center;
+  margin-bottom: 50vh;
+  max-height: 70%;
+  max-width: 70%;
+  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+}
+.text-section-card h1{
+  top: 0;
+  min-height: 30%;
+}
+.text-section-card {
+  color: rgba(231, 235, 240, 0.836);
+  margin-top: 15%;
+}
 
-  .imagecard{
-    margin-top: 25%;
-    
-    max-height: 70%;
-    max-width: 70%;
-    box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
-    
-  }
+.text-section-card a {
+  text-decoration: none;
+  color: rgba(231, 235, 240, 0.836);
+  font-size: 1rem;
+  padding: 0;
+}
+.description-card {
+  text-align: center;
+  font: italic;
+  font-size: 0.8em;
+  padding: 20px 0px 20px 0px;
+}
+.profilepage {
+  height: 100%;
+  background-color: rgba(56, 94, 138, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.profilepage img {
+  max-height: 30%;
+  max-width: 30%;
+  margin: 50px 35%;
+  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+}
+.profilepagetext {
+  margin: 10px 20% 50px;
+  text-align: justify;
+  color: rgb(116, 15, 0);
+  min-height: 75vh;
+}
 
-  .text-section-card{
-    color: rgba(231, 235, 240, 0.836);
-    margin-bottom: 15%;
-
-  }
-
-  .text-section-card a{
-    text-decoration: none;
-    color: rgba(231, 235, 240, 0.836);
-    font-size: 1rem;
-    padding: 0 5%;
-    
-  }
-
-.imgslideshow{
+.imgslideshow {
   max-width: 60%;
   margin: 10% 20%;
   box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
-  
 }
 
-  .slideshow-container {
-    width: 100vw;
-    position: relative;
-    margin: auto;
-    background-color: rgba(8, 41, 49, 0.7);
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: rgba(116, 15, 0, 0.9);
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0.8em;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(8, 41, 49, 0.9);
-    color: rgba(231, 235, 240, 0.836);
-  }
-  
-  /* Caption text */
-  .text {
-    color: rgba(231, 235, 240, 0.836);;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-    
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: rgba(8, 41, 49, 0.9);
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-    margin-bottom: 20px;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  .dotdiv{
-    background-color: rgba(8, 41, 49, 0.7);
-    
-  }
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+.slideshow-container {
+  width: 100vw;
+  position: relative;
+  margin: auto;
+  background-color: rgba(8, 41, 49, 0.7);
+}
 
-@media screen and (max-width:768px){
-  body{
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgba(116, 15, 0, 0.9);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0.8em;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(8, 41, 49, 0.9);
+  color: rgba(231, 235, 240, 0.836);
+}
+
+/* Caption text */
+.text {
+  color: rgba(231, 235, 240, 0.836);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba(8, 41, 49, 0.9);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-bottom: 20px;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+.dotdiv {
+  background-color: rgba(8, 41, 49, 0.7);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
     overflow-x: hidden;
   }
   .nav-links {
-  position: absolute;
-  right: 0px;
-  height: 90vh;
-  top: 10vh;
-  background-color:rgba(8, 41, 49, 0.9);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding-top: 100px;
-  gap: 60px;
-  width: 20rem;
-  transform: translateX(100%);
-  transition: transform 0.5s ease-in;
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: 10vh;
+    background-color: rgba(8, 41, 49, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 100px;
+    gap: 60px;
+    width: 20rem;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
   }
-  .nav-links li{
+  .nav-links li {
     opacity: 1;
   }
-  .nav-links a{
-    color:rgba(231, 235, 240, 1) ;
+  .nav-links a {
+    color: rgba(231, 235, 240, 1);
     margin-left: 50px;
   }
   .burger {
@@ -439,39 +470,36 @@ nav {
   }
 }
 
-.nav-active{
-    transform: translateX(0%);
-  }
+.nav-active {
+  transform: translateX(0%);
+}
 
-
-@keyframes navLinkFade{
-  from{
+@keyframes navLinkFade {
+  from {
     opacity: 0;
     transform: translateX(50px);
   }
-  to{
+  to {
     opacity: 1;
     transform: translateX(0px);
   }
 }
 
 .toggle .line1 {
-  transform: rotate(-45deg) translate(-5px,6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 .toggle .line2 {
   opacity: 0;
 }
 .toggle .line3 {
-  transform: rotate(45deg) translate(-5px,-6px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   .section-2 {
     flex-direction: row;
     align-items: center;
     padding: 10%;
-    
-    
   }
   .section-2 img {
     max-height: 70%;
@@ -488,36 +516,33 @@ nav {
     max-width: 70%;
   }
 
-  .form input{
+  .form input {
     margin: 0px 20%;
   }
-  
-  .form textarea{
+
+  .form textarea {
     margin: 0px 20%;
   }
-  
+
   .button {
     margin: 0px 20%;
   }
 
-
-
-  .cardcontainer{
+  .cardcontainer {
     flex-direction: row;
+    min-height: 100vh;
   }
 
-  .paintingcard{
+  .paintingcard {
     min-width: 20vw;
     min-height: 30vh;
-    max-height: 50vh;
+    max-height: 60vh;
     max-width: 30vw;
     margin: 30px auto;
   }
-
-
 }
-@media screen and (min-width:1300px){
-  .paintingcard{
+@media screen and (min-width: 1300px) {
+  .paintingcard {
     min-width: 20vw;
     min-height: 30vh;
     max-height: 80vh;
