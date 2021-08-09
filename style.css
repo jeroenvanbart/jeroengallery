@@ -585,7 +585,10 @@ nav {
     flex-direction: row;
     min-height: 100vh;
   }
-
+.cardcontainer{
+  gap: 2%;
+  padding: 2%;
+}
   .paintingcard {
     min-width: 20vw;
     min-height: 30%;
