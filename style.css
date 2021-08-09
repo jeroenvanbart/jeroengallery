@@ -311,7 +311,6 @@ nav {
 .paintingcard {
   width: 60vw;
   height: 70vh;
-
   display: flex-start;
   flex-direction: column;
   background-color: rgba(41, 49, 45, 0.8);
@@ -535,7 +534,7 @@ nav {
   .section-2 {
     flex-direction: row;
     align-items: center;
-    padding: 10%;
+    padding: 0 10% 5%;
   }
   .section-2 img {
     max-height: 70%;
@@ -545,7 +544,7 @@ nav {
   .section-3 {
     flex-direction: row;
     align-items: center;
-    padding: 10%;
+    padding: 5% 10% 5%;
   }
   .section-3 img {
     max-height: 70%;
