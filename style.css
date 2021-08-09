@@ -342,7 +342,7 @@ nav {
 }
 .text-section-card h1 {
   top: 0;
-  min-height: 30%;
+  min-height: 25%;
 }
 .text-section-card {
   color: rgba(231, 235, 240, 0.836);
@@ -604,7 +604,7 @@ nav {
     margin: 2em auto;
   }
   .text-section-card {
-    height: 20%;
+    height: 25%;
   }
   .imagecard img {
     max-height: 70%;
@@ -624,9 +624,9 @@ nav {
     max-width: 20vw;
     margin: 30px auto;
   }
-  .text-section-card {
+  /* .text-section-card {
     height: 20%;
-  }
+  } */
   .imagecard img {
     max-height: 60%;
     max-width: 60%;
