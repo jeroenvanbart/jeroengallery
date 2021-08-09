@@ -14,7 +14,7 @@ nav {
   padding: 0 50px;
   align-items: center;
   height: 10vh;
-  background-color: rgba(8, 41, 49, 0.5);
+  background-color: rgba(8, 41, 49, 0.35);
   font-family: "Poppins", sans-serif;
 }
 .logo {
@@ -539,6 +539,10 @@ nav {
   .section-2 img {
     max-height: 50%;
     max-width: 50%;
+  }
+  .text-section-2 {
+    margin: 0px;
+    width: 50%;
   }
 
   .section-3 {
