@@ -58,10 +58,10 @@ nav {
   align-self: center;
   background-color: rgb(116, 15, 0);
   color: rgba(231, 235, 240, 0.836);
-  height: 3em;
+  height: 5em;
 }
 .headers h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin: auto;
 }
 
@@ -77,8 +77,6 @@ nav {
   font-size: 0.8em;
   margin: 0px 0px 5% 0px;
 }
-
-
 
 .title {
   font-size: 2em;
@@ -353,7 +351,7 @@ nav {
   font-size: 0.8em;
   font-weight: lighter;
 }
-.paintingcard a{
+.paintingcard a {
   color: rgba(231, 235, 240, 0.5);
 }
 .description-card {
@@ -585,10 +583,10 @@ nav {
     flex-direction: row;
     min-height: 100vh;
   }
-.cardcontainer{
-  gap: 2%;
-  padding: 2%;
-}
+  .cardcontainer {
+    gap: 2%;
+    padding: 2%;
+  }
   .paintingcard {
     min-width: 20vw;
     min-height: 30%;
