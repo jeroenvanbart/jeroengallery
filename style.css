@@ -58,10 +58,10 @@ nav {
   align-self: center;
   background-color: rgb(116, 15, 0);
   color: rgba(231, 235, 240, 0.836);
-  height: 2.5em;
+  height: 3em;
 }
 .headers h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: auto;
 }
 
@@ -103,7 +103,8 @@ nav {
   padding: 20px;
 }
 .section-1-text h1 {
-  font-size: 2em;
+  text-align: center;
+  font-size: 3em;
   line-height: 1.25em;
 }
 .section-1 div {
