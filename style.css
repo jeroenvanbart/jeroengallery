@@ -142,7 +142,7 @@ nav {
 
 .text-section-2 a {
   text-align: center;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: rgb(116, 15, 0);
 }
 
@@ -167,7 +167,7 @@ nav {
 }
 .text-section-3 a {
   text-align: center;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: rgba(231, 235, 240, 0.836);
 }
 
