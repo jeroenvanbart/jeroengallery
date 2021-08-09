@@ -139,6 +139,9 @@ nav {
   margin: 30px 50px 30px 50px;
   text-align: center;
 }
+.text-section-2 h1{
+  text-align: center;
+}
 
 .text-section-2 a {
   text-align: center;
@@ -165,10 +168,14 @@ nav {
   text-align: justify;
   color: rgba(231, 235, 240, 0.836);
 }
+
 .text-section-3 a {
   text-align: center;
   /* text-decoration: none; */
   color: rgba(231, 235, 240, 0.836);
+}
+.text-section-3 h1{
+  text-align: center;
 }
 
 .contact {
