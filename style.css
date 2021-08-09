@@ -309,10 +309,9 @@ nav {
 }
 
 .paintingcard {
-  min-width: 30vw;
+  width: 60vw;
   min-height: 55vh;
   max-height: 40vh;
-  max-width: 45vw;
   display: flex-start;
   flex-direction: column;
   background-color: rgba(41, 49, 45, 0.8);
