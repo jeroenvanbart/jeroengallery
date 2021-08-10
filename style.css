@@ -14,18 +14,21 @@ nav {
   padding: 0 50px;
   align-items: center;
   height: 10vh;
-  background-color: rgba(231, 235, 240, 0.7);
+  background-color: rgba(203, 212, 223, 0.9);
   font-family: "Poppins", sans-serif;
   position: fixed;
+  gap: 70%;
 }
 .logo {
   max-height: 75px;
+  
 }
 .nav-links {
   display: flex;
   justify-content: space-around;
   width: 50px;
   gap: 20px;
+  
 }
 .nav-links li {
   list-style: none;
@@ -59,7 +62,7 @@ nav {
   align-self: center;
   background-color: rgb(116, 15, 0);
   color: rgba(231, 235, 240, 0.836);
-  height: 5em;
+  height: 4em;
 }
 .headers-2{
   top: 10vh;
@@ -70,7 +73,7 @@ nav {
   height: 5em;
 }
 .headers h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: auto;
 }
 
@@ -568,6 +571,9 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+  .nav {
+    gap: 20%;
+  }
   .section-2 {
     flex-direction: row;
     align-items: center;
