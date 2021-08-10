@@ -16,7 +16,7 @@ nav {
   height: 10vh;
   background-color: rgba(231, 235, 240, 0.7);
   font-family: "Poppins", sans-serif;
-  position: fixed;
+  /* position: fixed; */
 }
 .logo {
   max-height: 75px;
