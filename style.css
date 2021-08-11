@@ -366,7 +366,7 @@ nav {
   flex-direction: column;
   background-color: rgba(8, 41, 49, 0.7);
   margin: 50px 10% 50px;
-  padding: 20px 10px 50px 10px;
+  padding: 10px 10px 50px 10px;
   border-radius: 25px;
   text-align: center;
   box-shadow: 10px 10px 10px rgba(22, 24, 26, 0.8);
@@ -395,6 +395,7 @@ nav {
   padding: 0;
 }
 .paintingcard p {
+  margin-top: 20px;
   color: rgba(231, 235, 240, 0.5);
   font-size: 0.8em;
   font-weight: lighter;
@@ -702,7 +703,8 @@ nav {
 }
 @media screen and (min-width: 1950px) {
   .paintingcard {
-    max-height: 110vh;
+    max-height: 150vh;
+  
   }
   .imagecard img {
     max-height: 45%;
