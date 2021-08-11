@@ -665,7 +665,23 @@ nav {
 @media screen and (min-width: 900px) {
   .paintingcard {
 
-    height: 75%;
+    height: 700px;
+
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .paintingcard {
+
+    height: 750px;
+
+  }
+}
+
+@media screen and (min-width: 1175px) {
+  .paintingcard {
+
+    height: 800px;
 
   }
 }
