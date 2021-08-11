@@ -102,6 +102,7 @@ nav {
 .text-block {
   padding-bottom: 10px;
   font-size: 0.98em;
+  text-align: left;
 }
 .text-block a{
   color:rgb(116, 15, 0) ;
