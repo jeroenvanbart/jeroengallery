@@ -625,9 +625,11 @@ nav {
 
 @media screen and (min-width: 768px) {
   .nav {
-    gap: 20%;
-    justify-content: space-around;
+    gap: 50%;
+    justify-content: space-evenly;
+    
   }
+  
   .section-2 {
     flex-direction: row;
     align-items: center;
@@ -713,6 +715,11 @@ nav {
     font-size: 30px; 
     padding: 12px 19px;
   }
+  .imgslideshow {
+    max-height: 30%;
+    max-width: 30%;
+    margin: 10% 35% 10%;
+  }
 }
 @media screen and (min-width: 950px) {
     .paintingcard {
@@ -725,6 +732,11 @@ nav {
   }
   .imagecard img {
     min-width: 18%;
+  }
+  .nav {
+  
+    justify-content: space-evenly;
+    
   }
 }
 
