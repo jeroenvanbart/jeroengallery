@@ -318,8 +318,8 @@ nav {
 .back-btn:hover {
   cursor: pointer;
   color: rgba(116, 15, 0, 0.9);
-  background-color: rgba(231, 235, 240, 0.836);
-  border: 1px solid black;
+  background-color: rgba(231, 235, 240, 0.1);
+  
 }
 
 .paintingpage {
