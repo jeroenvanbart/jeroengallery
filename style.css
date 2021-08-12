@@ -17,7 +17,7 @@ nav {
   background-color: rgba(203, 212, 223, 0.9);
   font-family: "Poppins", sans-serif;
   position: fixed;
-  gap: 70%;
+  gap: 65%;
   z-index: 10;
 }
 .logo {
