@@ -647,6 +647,10 @@ nav {
   .cardcontainer {
     gap: 2%;
     padding: 2%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:100%;
   }
   .paintingcard {
     min-width: 20vw;
@@ -656,11 +660,12 @@ nav {
     margin: 2em auto;
   }
   .text-section-card {
-    height: 25%;
+    height: 30%;
   }
   .imagecard img {
-    max-height: 70%;
-    max-width: 70%;
+    width: 80%;
+    /* max-height: 70%;
+    max-width: 70%; */
   }
 }
 @media screen and (min-width: 900px) {
