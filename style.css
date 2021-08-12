@@ -447,9 +447,9 @@ nav {
   background-color:rgba(8, 41, 49, 0.9);
   color: rgba(231, 235, 240, 0.836); 
   cursor: pointer;
-  padding: 15px 20px; 
+  padding: 12px 20px; 
   border-radius: 50px;
-  font-size: 25px; 
+  font-size: 30px; 
 }
 
 #myBtn:hover {
@@ -690,8 +690,8 @@ nav {
   }
 
   #myBtn {
-    font-size: 18px; 
-    padding: 15px 19px;
+    font-size: 30px; 
+    padding: 12px 19px;
   }
 }
 @media screen and (min-width: 950px) {
