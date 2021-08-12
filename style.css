@@ -332,13 +332,13 @@ nav {
   padding-top: 10vh;
 }
 .paintingpage img {
-  max-height: 60%;
-  max-width: 60%;
-  margin: 50px 20%;
+  max-height: 80%;
+  max-width: 80%;
+  margin: 50px 10%;
   box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
 }
 .paintingpagetext {
-  margin: 10px 20% 50px;
+  margin: 10px 10% 50px;
   text-align: justify;
   color: rgb(116, 15, 0);
   min-height: 75vh;
@@ -721,6 +721,16 @@ nav {
     max-width: 30%;
     margin: 10% 35% 10%;
   }
+
+  .paintingpage img {
+    
+    max-width: 60%;
+    margin: 50px 20%;
+
+  }
+  .paintingpagetext {
+    margin: 10px 20% 50px;
+  }
 }
 @media screen and (min-width: 950px) {
     .paintingcard {
@@ -738,6 +748,15 @@ nav {
   
     justify-content: space-evenly;
     
+  }
+  .paintingpage img {
+    
+    width: 50%;
+    margin: 50px 25%;
+
+  }
+  .paintingpagetext {
+    margin: 10px 25% 50px;
   }
 }
 
