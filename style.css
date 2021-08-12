@@ -383,6 +383,7 @@ nav {
 .text-section-card h1 {
   top: 0;
   min-height: 25%;
+  padding: 0 10px;
 }
 .text-section-card {
   color: rgba(231, 235, 240, 0.836);
@@ -396,7 +397,7 @@ nav {
   padding: 0;
 }
 .paintingcard p {
-  margin-top: 20px;
+  margin-top: 25px;
   color: rgba(231, 235, 240, 0.5);
   font-size: 0.8em;
   font-weight: lighter;
@@ -773,6 +774,7 @@ nav {
     max-width: 40vw;
     margin: 10vh 20%;
   }
+
 }
 
 
