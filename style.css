@@ -868,10 +868,11 @@ nav {
   }
   .paintingpage{
     min-height: 100vh;
+    align-content: center;
   }
   .paintingpage img{
     margin: 50px 10%;
-    max-width: 20%;
+    max-width: 30%;
    position: absolute;
    right: 48vw;
     
