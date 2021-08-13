@@ -45,7 +45,11 @@
             <li><a href="../allpaintings.html">Paintings</a></li>
             <li><a href="../bio.html">Bio</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li> <a href="https://www.instagram.com/j_vanbart/" target="_blank"><img class="instalogo" src="./img/insta-logo.png" alt=""></a></li>
+            <li>
+              <a href="https://www.instagram.com/j_vanbart/" target="_blank"
+                ><img class="instalogo" src="./img/insta-logo.png" alt=""
+              /></a>
+            </li>
           </ul>
           <div class="burger">
             <div class="line1"></div>
@@ -57,18 +61,16 @@
     </header>
     <section class="paintingpage">
       <div>
-        <img
-          src="../img/wine.jpg"
-          alt="painting wine"
-        />
+        <img id="myImg" src="../img/wine.jpg" alt="Wine" />
       </div>
       <div class="paintingpagetext">
         <h1 class="title-2">Wine</h1>
         <h5 class="details">2019 | Oil on Canvas | 40 x 30 cm</h5>
         <p class="text-block">
-            On a warm summer evening a good bottle of wine exposes itself. Being kept in a dark 
-            cellar for many years awaiting this moment of serving its purpose. The wine swirls in the glass 
-            releasing all the aroma's, all in anticipation of that first sip. 
+          On a warm summer evening a good bottle of wine exposes itself. Being
+          kept in a dark cellar for many years awaiting this moment of serving
+          its purpose. The wine swirls in the glass releasing all the aroma's,
+          all in anticipation of that first sip.
           <br />
           <br />
           For more info about this painting
@@ -82,6 +84,11 @@
       </div>
     </section>
 
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
 
     <footer id="footer">
       <p>© 2021 Jeroen van Bart</p>
@@ -108,6 +115,7 @@
     </div>
 
     <script src="../js/app.js"></script>
+    <script src="../js/bigimg.js"></script>
     <script src="../js/cookie.js"></script>
   </body>
 </html>

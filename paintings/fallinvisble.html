@@ -45,7 +45,11 @@
             <li><a href="../allpaintings.html">Paintings</a></li>
             <li><a href="../bio.html">Bio</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li> <a href="https://www.instagram.com/j_vanbart/" target="_blank"><img class="instalogo" src="./img/insta-logo.png" alt=""></a></li>
+            <li>
+              <a href="https://www.instagram.com/j_vanbart/" target="_blank"
+                ><img class="instalogo" src="./img/insta-logo.png" alt=""
+              /></a>
+            </li>
           </ul>
           <div class="burger">
             <div class="line1"></div>
@@ -57,7 +61,11 @@
     </header>
     <section class="paintingpage">
       <div>
-        <img src="../img/Fall-invisible-man.jpg" alt="Fall-invisible-man" />
+        <img
+          id="myImg"
+          src="../img/Fall-invisible-man.jpg"
+          alt="Fall of the Invisible Man"
+        />
       </div>
       <div class="paintingpagetext">
         <h1 class="title-2">Fall of the Invisible Man</h1>
@@ -65,8 +73,8 @@
         <p class="text-block">
           In life we are measured by what we do, by what we have and by who we
           know. The successful trust on soft clouds to catch them when they fall
-          but the invisible man will fall through those clouds into lands unknown.
-          Who pay's attention to the invisible man?
+          but the invisible man will fall through those clouds into lands
+          unknown. Who pay's attention to the invisible man?
           <br />
           <br />
           For more info about this painting
@@ -79,6 +87,13 @@
         </p>
       </div>
     </section>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
+
     <footer id="footer">
       <p>© 2021 Jeroen van Bart</p>
       <ul>
@@ -104,6 +119,7 @@
     </div>
 
     <script src="../js/app.js"></script>
+    <script src="../js/bigimg.js"></script>
     <script src="../js/cookie.js"></script>
   </body>
 </html>

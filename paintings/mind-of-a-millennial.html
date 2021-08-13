@@ -45,7 +45,11 @@
             <li><a href="../allpaintings.html">Paintings</a></li>
             <li><a href="../bio.html">Bio</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li> <a href="https://www.instagram.com/j_vanbart/" target="_blank"><img class="instalogo" src="./img/insta-logo.png" alt=""></a></li>
+            <li>
+              <a href="https://www.instagram.com/j_vanbart/" target="_blank"
+                ><img class="instalogo" src="./img/insta-logo.png" alt=""
+              /></a>
+            </li>
           </ul>
           <div class="burger">
             <div class="line1"></div>
@@ -57,15 +61,21 @@
     </header>
     <section class="paintingpage">
       <div>
-        <img src="../img/Mind-of-a-millennial.jpg" alt="painting mind-of-a-millennial" />
+        <img
+          id="myImg"
+          src="../img/Mind-of-a-millennial.jpg"
+          alt="Mind of a Millennial"
+        />
       </div>
       <div class="paintingpagetext">
         <h1 class="title-2">Mind of a Millennial</h1>
         <h5 class="details">2017| Acryl on Canvas | 50 x 50 cm</h5>
         <p class="text-block">
-          The human brain can be a maze, so many impulses and toughts. From all sides the scream for attention is heard.
-          It's hard to filter primary needs from secundairy needs. Do you truly control your toughts and feelings, or do they 
-          take the upperhand? To have full control over your own brain must both be scary and beautiful. 
+          The human brain can be a maze, so many impulses and toughts. From all
+          sides the scream for attention is heard. It's hard to filter primary
+          needs from secundairy needs. Do you truly control your toughts and
+          feelings, or do they take the upperhand? To have full control over
+          your own brain must both be scary and beautiful.
           <br />
           <br />
           For more info about this painting
@@ -78,6 +88,12 @@
         </p>
       </div>
     </section>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
 
     <footer id="footer">
       <p>© 2021 Jeroen van Bart</p>
@@ -104,6 +120,7 @@
     </div>
 
     <script src="../js/app.js"></script>
+    <script src="../js/bigimg.js"></script>
     <script src="../js/cookie.js"></script>
   </body>
 </html>

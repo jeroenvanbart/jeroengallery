@@ -45,7 +45,11 @@
             <li><a href="../allpaintings.html">Paintings</a></li>
             <li><a href="../bio.html">Bio</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li> <a href="https://www.instagram.com/j_vanbart/" target="_blank"><img class="instalogo" src="./img/insta-logo.png" alt=""></a></li>
+            <li>
+              <a href="https://www.instagram.com/j_vanbart/" target="_blank"
+                ><img class="instalogo" src="./img/insta-logo.png" alt=""
+              /></a>
+            </li>
           </ul>
           <div class="burger">
             <div class="line1"></div>
@@ -58,20 +62,22 @@
     <section class="paintingpage">
       <div>
         <img
+          id="myImg"
           src="../img/Adventure-of-exploring.jpg"
-          alt="Adventure-of-exploring"
+          alt="Adventure of Exploring"
         />
       </div>
       <div class="paintingpagetext">
         <h1 class="title-2">Adventure of Exploring</h1>
         <h5 class="details">2018 | Oil on Canvas-Board | 24 x 30 cm</h5>
         <p class="text-block">
-            Going on holidays to a new destination brings a feeling of adventure. In the last decades long distance travel 
-            became easier and more of a commodity. If this development keeps the same progress the average Joe will run 
-            out of places to see on earth in the coming decades. How about exploring the universe, will there be a time 
-            that someone is shot into space so deep that he will never make it back? 
-            And what will he encounter in the great unknown? 
-            Just a spin of the brain.
+          Going on holidays to a new destination brings a feeling of adventure.
+          In the last decades long distance travel became easier and more of a
+          commodity. If this development keeps the same progress the average Joe
+          will run out of places to see on earth in the coming decades. How
+          about exploring the universe, will there be a time that someone is
+          shot into space so deep that he will never make it back? And what will
+          he encounter in the great unknown? Just a spin of the brain.
 
           <br />
           <br />
@@ -85,6 +91,12 @@
         </p>
       </div>
     </section>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
 
     <footer id="footer">
       <p>© 2021 Jeroen van Bart</p>
@@ -111,6 +123,7 @@
     </div>
 
     <script src="../js/app.js"></script>
+    <script src="../js/bigimg.js"></script>
     <script src="../js/cookie.js"></script>
   </body>
 </html>

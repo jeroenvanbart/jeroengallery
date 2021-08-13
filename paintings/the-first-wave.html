@@ -45,7 +45,11 @@
             <li><a href="../allpaintings.html">Paintings</a></li>
             <li><a href="../bio.html">Bio</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li> <a href="https://www.instagram.com/j_vanbart/" target="_blank"><img class="instalogo" src="./img/insta-logo.png" alt=""></a></li>
+            <li>
+              <a href="https://www.instagram.com/j_vanbart/" target="_blank"
+                ><img class="instalogo" src="./img/insta-logo.png" alt=""
+              /></a>
+            </li>
           </ul>
           <div class="burger">
             <div class="line1"></div>
@@ -57,18 +61,17 @@
     </header>
     <section class="paintingpage">
       <div>
-        <img
-          src="../img/first-wave.jpg"
-          alt="painting the-first wave"
-        />
+        <img id="myImg" src="../img/first-wave.jpg" alt="The First Wave" />
       </div>
       <div class="paintingpagetext">
         <h1 class="title-2">The First Wave</h1>
         <h5 class="details">2019 | Oil on Canvas | 50 x 40 cm</h5>
         <p class="text-block">
-            In this image Neptune is mad at the person responsible for dropping the plastic bottle in the ocean, and Jupiter agrees. 
-            Humanity leaves traces of their appearance in this world for many years to come, and future generations will have to deal 
-            with our laziness. They will have to live on a budget trying to repair all of our mistakes. 
+          In this image Neptune is mad at the person responsible for dropping
+          the plastic bottle in the ocean, and Jupiter agrees. Humanity leaves
+          traces of their appearance in this world for many years to come, and
+          future generations will have to deal with our laziness. They will have
+          to live on a budget trying to repair all of our mistakes.
           <br />
           <br />
           For more info about this painting
@@ -81,6 +84,12 @@
         </p>
       </div>
     </section>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
 
     <footer id="footer">
       <p>© 2021 Jeroen van Bart</p>
@@ -107,6 +116,7 @@
     </div>
 
     <script src="../js/app.js"></script>
+    <script src="../js/bigimg.js"></script>
     <script src="../js/cookie.js"></script>
   </body>
 </html>

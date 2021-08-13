@@ -45,7 +45,11 @@
             <li><a href="../allpaintings.html">Paintings</a></li>
             <li><a href="../bio.html">Bio</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li> <a href="https://www.instagram.com/j_vanbart/" target="_blank"><img class="instalogo" src="./img/insta-logo.png" alt=""></a></li>
+            <li>
+              <a href="https://www.instagram.com/j_vanbart/" target="_blank"
+                ><img class="instalogo" src="./img/insta-logo.png" alt=""
+              /></a>
+            </li>
           </ul>
           <div class="burger">
             <div class="line1"></div>
@@ -55,9 +59,10 @@
         </div>
       </nav>
     </header>
+
     <section class="paintingpage">
       <div>
-        <img src="../img/dreambubbles.jpg" alt="painting Nurturing dreams" />
+        <img id="myImg" src="../img/dreambubbles.jpg" alt="Nurturing Dreams" />
       </div>
       <div class="paintingpagetext">
         <h1 class="title-2">Nurturing Dreams</h1>
@@ -84,6 +89,12 @@
       </div>
     </section>
 
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
+
     <footer id="footer">
       <p>© 2021 Jeroen van Bart</p>
       <ul>
@@ -109,6 +120,7 @@
     </div>
 
     <script src="../js/app.js"></script>
+    <script src="../js/bigimg.js"></script>
     <script src="../js/cookie.js"></script>
   </body>
 </html>

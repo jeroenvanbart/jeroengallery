@@ -45,7 +45,11 @@
             <li><a href="../allpaintings.html">Paintings</a></li>
             <li><a href="../bio.html">Bio</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li> <a href="https://www.instagram.com/j_vanbart/" target="_blank"><img class="instalogo" src="./img/insta-logo.png" alt=""></a></li>
+            <li>
+              <a href="https://www.instagram.com/j_vanbart/" target="_blank"
+                ><img class="instalogo" src="./img/insta-logo.png" alt=""
+              /></a>
+            </li>
           </ul>
           <div class="burger">
             <div class="line1"></div>
@@ -55,20 +59,24 @@
         </div>
       </nav>
     </header>
+
     <section class="paintingpage">
       <div>
         <img
+          id="myImg"
           src="../img/last-chance.jpg"
-          alt="Last chance to be free"
+          alt="Last Chance to Be Free"
         />
       </div>
       <div class="paintingpagetext">
         <h1 class="title-2">Last Chance to Be Free</h1>
         <h5 class="details">2019 | Oil on canvas | 60 x 40 cm</h5>
         <p class="text-block">
-            The sad story of a genie in an oil lamp. Her life consists of fulfilling 3 wishes, and after that 
-            she is all used up. But what if someone would perform a selfless act by granting her the wish to be free instead of 
-            choosing the commodity of riches, or will she slowly fade away into the darkness. 
+          The sad story of a genie in an oil lamp. Her life consists of
+          fulfilling 3 wishes, and after that she is all used up. But what if
+          someone would perform a selfless act by granting her the wish to be
+          free instead of choosing the commodity of riches, or will she slowly
+          fade away into the darkness.
           <br />
           <br />
           For more info about this painting
@@ -81,6 +89,12 @@
         </p>
       </div>
     </section>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
 
     <footer id="footer">
       <p>© 2021 Jeroen van Bart</p>
@@ -107,6 +121,7 @@
     </div>
 
     <script src="../js/app.js"></script>
+    <script src="../js/bigimg.js"></script>
     <script src="../js/cookie.js"></script>
   </body>
 </html>

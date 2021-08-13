@@ -45,7 +45,11 @@
             <li><a href="../allpaintings.html">Paintings</a></li>
             <li><a href="../bio.html">Bio</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li> <a href="https://www.instagram.com/j_vanbart/" target="_blank"><img class="instalogo" src="./img/insta-logo.png" alt=""></a></li>
+            <li>
+              <a href="https://www.instagram.com/j_vanbart/" target="_blank"
+                ><img class="instalogo" src="./img/insta-logo.png" alt=""
+              /></a>
+            </li>
           </ul>
           <div class="burger">
             <div class="line1"></div>
@@ -55,20 +59,20 @@
         </div>
       </nav>
     </header>
+
     <section class="paintingpage">
       <div>
-        <img
-          src="../img/gladiator.jpg"
-          alt="painting gladiator"
-        />
+        <img id="myImg" src="../img/gladiator.jpg" alt="Gladiator" />
       </div>
       <div class="paintingpagetext">
         <h1 class="title-2">Gladiator</h1>
         <h5 class="details">2019 | Oil on Canvas-Board | 24 x 30 cm</h5>
         <p class="text-block">
-            Caught stealing bread to feed his family, since he didn't have the resources to buy it, he awaits judgment 
-            by fighting for the masses' entertainment. Now the bars are both safety and imprisonment. 
-            His situation is hopeless but all he can think about is the hunger of his family while the crowd goes wild. 
+          Caught stealing bread to feed his family, since he didn't have the
+          resources to buy it, he awaits judgment by fighting for the masses'
+          entertainment. Now the bars are both safety and imprisonment. His
+          situation is hopeless but all he can think about is the hunger of his
+          family while the crowd goes wild.
           <br />
           <br />
           For more info about this painting
@@ -81,6 +85,12 @@
         </p>
       </div>
     </section>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
 
     <footer id="footer">
       <p>© 2021 Jeroen van Bart</p>
@@ -107,6 +117,7 @@
     </div>
 
     <script src="../js/app.js"></script>
+    <script src="../js/bigimg.js"></script>
     <script src="../js/cookie.js"></script>
   </body>
 </html>

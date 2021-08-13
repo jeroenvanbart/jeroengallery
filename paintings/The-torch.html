@@ -45,7 +45,11 @@
             <li><a href="../allpaintings.html">Paintings</a></li>
             <li><a href="../bio.html">Bio</a></li>
             <li><a href="../contact.html">Contact</a></li>
-            <li> <a href="https://www.instagram.com/j_vanbart/" target="_blank"><img class="instalogo" src="./img/insta-logo.png" alt=""></a></li>
+            <li>
+              <a href="https://www.instagram.com/j_vanbart/" target="_blank"
+                ><img class="instalogo" src="./img/insta-logo.png" alt=""
+              /></a>
+            </li>
           </ul>
           <div class="burger">
             <div class="line1"></div>
@@ -57,17 +61,15 @@
     </header>
     <section class="paintingpage">
       <div>
-        <img
-          src="../img/The-torch.jpg"
-          alt="painting The-torch"
-        />
+        <img id="myImg" src="../img/The-torch.jpg" alt="The Torch" />
       </div>
       <div class="paintingpagetext">
         <h1 class="title-2">The Torch</h1>
         <h5 class="details">2017| Acryl on Canvas | 30 x 30 cm</h5>
         <p class="text-block">
-          The Torch is a bright light in the darkness that makes you see your surroundings. But it only brightens up the space around you opposed to 
-          the space inside. 
+          The Torch is a bright light in the darkness that makes you see your
+          surroundings. But it only brightens up the space around you opposed to
+          the space inside.
           <br />
           <br />
           For more info about this painting
@@ -80,6 +82,12 @@
         </p>
       </div>
     </section>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
 
     <footer id="footer">
       <p>© 2021 Jeroen van Bart</p>
@@ -106,6 +114,7 @@
     </div>
 
     <script src="../js/app.js"></script>
+    <script src="../js/bigimg.js"></script>
     <script src="../js/cookie.js"></script>
   </body>
 </html>
