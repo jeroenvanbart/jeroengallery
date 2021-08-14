@@ -886,6 +886,13 @@ nav {
 
 }
 
+@media screen and (min-width: 1700px) {
+.paintingpage img{
+  min-width: 20%;
+}
+
+}
+
 
 
 
