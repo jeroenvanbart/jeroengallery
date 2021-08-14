@@ -16,7 +16,7 @@ nav {
   justify-content: space-between;
   padding: 0 50px 0 0;
   align-items: center;
-  height: 10vh;
+  height: 10%;
   background-color: rgba(203, 212, 223, 0.9);
   font-family: "Poppins", sans-serif;
   position: fixed;
@@ -129,7 +129,7 @@ nav {
 }
 .section-1 div {
   text-align-last: center;
-  padding-top: 10vh;
+  padding-top: 10%;
   color: rgba(231, 235, 240, 0.836);
 }
 .section-1 div p {
