@@ -873,15 +873,13 @@ nav {
   .paintingpage img{
     margin: 50px 10%;
     max-width: 30%;
-   position: absolute;
-   right: 48vw;
+    position: absolute;
+    right: 48vw;
     
   }
   .paintingpagetext {
-    min-width: 30%;
+    width: 30%;
     margin: 50px 10% 0 45%;
-    
-   
   }
 
 }
