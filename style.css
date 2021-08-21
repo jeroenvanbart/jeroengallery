@@ -307,14 +307,19 @@ nav {
   background-color: rgba(231, 235, 240, 0.836);
   border: 1px solid black;
 }
+.buttons-prev-next{
+  display: flex;
+  justify-content: center;
+  gap: 25%
+}
 
 .back-btn {
   text-decoration: none;
   color: rgba(231, 235, 240, 0.836);
   margin: 0px;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: bolder;
-  padding: 5px 7px;
+  padding: 7px 20px;
   background-color: rgba(116, 15, 0, 0.9);
   border-radius: 8px;
   border: none;
@@ -322,7 +327,7 @@ nav {
 .back-btn:hover {
   cursor: pointer;
   color: rgba(116, 15, 0, 0.9);
-  background-color: rgba(231, 235, 240, 0.1);
+  background-color:  rgba(116, 15, 0, 0.2);
   
 }
 
@@ -346,11 +351,7 @@ nav {
   color: rgb(116, 15, 0);
   min-height: 75vh;
 }
-.buttons-prev-next{
-  display: flex;
-  justify-content: flex-start;
-  gap: 33%
-}
+
 .details {
   line-height: 2em;
   margin: 10px 0;
