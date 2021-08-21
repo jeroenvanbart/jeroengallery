@@ -310,7 +310,8 @@ nav {
 .buttons-prev-next{
   display: flex;
   justify-content: center;
-  gap: 25%
+  gap: 25%;
+  margin-top: 10%;
 }
 
 .back-btn {
