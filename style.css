@@ -151,25 +151,25 @@ nav {
   max-height: 60%;
   max-width: 60%;
   margin: 10% 20% 0;
-  box-shadow: -5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: 0 0 20px rgba(22, 24, 26, 0.8);
 }
 .image2 {
   max-height: 60%;
   max-width: 60%;
   margin: 5% 20% 10%;
-  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: 0 0 20px rgba(22, 24, 26, 0.8);
 }
 .image3 {
   max-height: 60%;
   max-width: 60%;
   margin: 10% 20% 0;
-  box-shadow: -5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: 0 0 20px rgba(22, 24, 26, 0.8);
 }
 .image4 {
   max-height: 60%;
   max-width: 60%;
   margin: 10% 20% 10%;
-  box-shadow: -5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: 0 0 20px rgba(22, 24, 26, 0.8);
 }
 .text-section-2 {
   text-align: justify;
@@ -359,7 +359,7 @@ nav {
   max-height: 80%;
   max-width: 80%;
   margin: 50px 10%;
-  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: 0 0 20px rgba(22, 24, 26, 0.8);
 }
 .paintingpagetext {
   margin: 10px 10% 50px;
@@ -403,12 +403,13 @@ nav {
   margin: 10%;
   max-height: 70%;
   max-width: 70%;
-  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: 0 0 20px rgba(22, 24, 26, 0.8);
 }
 .text-section-card h1 {
   top: 0;
   min-height: 25%;
   padding: 0 10px;
+  
 }
 .text-section-card {
   color: rgba(231, 235, 240, 0.836);
@@ -460,7 +461,7 @@ nav {
   max-height: 50%;
   max-width: 50%;
   margin: 50px 25% 10px;
-  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: 0 0 20px rgba(22, 24, 26, 0.8);
 }
 
 
@@ -562,7 +563,7 @@ nav {
   max-height: 60%;
   max-width: 60%;
   margin: 10% 20% 10%;
-  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: 0 0 20px rgba(22, 24, 26, 0.8);
 }
 
 .slideshow-container {
