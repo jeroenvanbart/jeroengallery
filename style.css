@@ -151,7 +151,7 @@ nav {
   max-height: 60%;
   max-width: 60%;
   margin: 10% 20% 0;
-  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: -5px 5px 10px rgba(22, 24, 26, 0.8);
 }
 .image2 {
   max-height: 60%;
@@ -163,13 +163,13 @@ nav {
   max-height: 60%;
   max-width: 60%;
   margin: 10% 20% 0;
-  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: -5px 5px 10px rgba(22, 24, 26, 0.8);
 }
 .image4 {
   max-height: 60%;
   max-width: 60%;
   margin: 10% 20% 10%;
-  box-shadow: 5px 5px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: -5px 5px 10px rgba(22, 24, 26, 0.8);
 }
 .text-section-2 {
   text-align: justify;
