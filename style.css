@@ -395,7 +395,7 @@ nav {
   padding: 10px 10px 50px 10px;
   border-radius: 25px;
   text-align: center;
-  box-shadow: 10px 10px 10px rgba(22, 24, 26, 0.8);
+  box-shadow: 0 0 20px rgba(22, 24, 26, 0.8);
 }
 
 .imagecard img {
