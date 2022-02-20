@@ -337,13 +337,14 @@ nav {
   font-weight: bolder;
   padding: 7px 20px;
   background-color: rgba(116, 15, 0, 0.9);
-  border-radius: 8px;
+  border-radius: 2px;
   border: none;
 }
 .back-btn:hover {
   cursor: pointer;
   color: rgba(116, 15, 0, 0.9);
   background-color:  rgba(116, 15, 0, 0.2);
+  border: 1px solid rgba(116, 15, 0, 0.9);
   
 }
 
