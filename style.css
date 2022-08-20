@@ -765,8 +765,8 @@ list-style: none;
     padding: 0 10% 5%;
   }
   .image1 {
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 60%;
+  max-width: 60%;
   margin-left: 20px;
   margin-top: 15%;
   
@@ -912,8 +912,8 @@ list-style: none;
    
   }
     .image1 {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 70%;
+  max-width: 70%;
   
   
 }
